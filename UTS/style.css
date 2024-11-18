@@ -1,0 +1,64 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+h6 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+b {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+body {
+    background-color: rgb(45, 111, 218);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    border: 2px white;
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.flex-container > div {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    border: 2px white;
+    background-color: white;
+}
